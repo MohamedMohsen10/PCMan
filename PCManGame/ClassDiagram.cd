@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PCManGame.Boxes.BoxesFactory" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Boxes\BoxesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Boxes.BronzeBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAQAABAAAAAA=</HashCode>
+      <FileName>Boxes\BronzeBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.Boxes.GoldBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAQAABAAAAAA=</HashCode>
+      <FileName>Boxes\GoldBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.16" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.Boxes.SilverBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAQAABAAAAAA=</HashCode>
+      <FileName>Boxes\SilverBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.Enemy" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fighters\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Fighter" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAIAAAAAAAAAAQAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>Fighters\Fighter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Player" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAACAEAAAAkAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Fighters\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Context" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACCAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.GameLevel" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\GameLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Cell" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Maps\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.CellFactory" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Maps\CellFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Map" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAABIAAAA=</HashCode>
+      <FileName>Maps\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Program" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.GamePlay.BoxValidation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\BoxValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.GamePlay.DiamondValidation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\DiamondValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.GamePlay.EnemyValidation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\EnemyValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.GamePlay.KeyValidation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\KeyValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.GamePlay.MovmentValidation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\MovmentValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PCManGame.Levels.Easy" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\Easy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Levels.Hard" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\Hard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Levels.LevelFactory" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\LevelFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCManGame.Levels.Medium" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\Medium.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PCManGame.Boxes.IBox" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Boxes\IBox.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PCManGame.GamePlay.IStrategy" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GamePlay\IStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PCManGame.Boxes.BoxState" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Boxes\BoxState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PCManGame.FighterState" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>Fighters\FighterState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PCManGame.Key" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Key.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

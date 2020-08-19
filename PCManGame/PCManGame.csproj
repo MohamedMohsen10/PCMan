@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\EasyMap.json" />
+    <Content Include="bin\Debug\HardMap.json" />
+    <Content Include="bin\Debug\MediumMap.json" />
+    <Content Include="bin\Debug\netcoreapp2.1\PCManGame.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.1\PCManGame.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.1\PCManGame.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.1\PCManGame.dll" />
+    <None Include="bin\Debug\netcoreapp2.1\PCManGame.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

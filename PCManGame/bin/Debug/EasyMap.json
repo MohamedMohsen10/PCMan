@@ -1,0 +1,27 @@
+{
+  "item1": {
+    "M_Location": 0,
+    "N_Location": 0,
+    "Description": "Player"
+  },
+  "item2": {
+    "M_Location": 1,
+    "N_Location": 1,
+    "Description": "GoldenKey"
+  },
+  "item3": {
+    "M_Location": 5,
+    "N_Location": 2,
+    "Description": "GoldenBox"
+  },
+  "item4": {
+    "M_Location": 3,
+    "N_Location": 4,
+    "Description": "Enemy"
+  },
+  "item5": {
+    "M_Location": 6,
+    "N_Location": 4,
+    "Description": "Diamond"
+  }
+}
