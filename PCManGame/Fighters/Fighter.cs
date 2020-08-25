@@ -17,6 +17,11 @@ namespace PCManGame
                 fighter.Health -= this.Weapon;
                 this.Health = 0;
                 this.FighterState = FighterState.Dead;
+                if (fighter.Health <= 0)
+                {
+                    fighter.FighterState = FighterState.Dead;
+                    return true;
+                }
                 return false;
             }
             else if (fighter.Health <= this.Weapon)
